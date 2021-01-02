@@ -4,7 +4,7 @@ import (
 	"time"
 	"fmt"
 	"github.com/MichaelS11/go-dht"
-	"github.com/jmross14/sensorPlayground/temperaturesensor"
+	"github.com/jmross14/sensorPlayGround/temperaturesensor"
 )
 
 func main() {
