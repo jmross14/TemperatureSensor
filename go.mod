@@ -1,4 +1,4 @@
-module github.com/jmross14/sensorPlayground
+module github.com/jmross14/sensorPlayGround
 
 go 1.15
 
