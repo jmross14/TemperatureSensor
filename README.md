@@ -10,7 +10,7 @@ env GOOS=linux GOARCH=arm go build
 
 ## Run on Raspberry Pi
 1. Move the compiled binary to the Raspberry Pi
-1. On the Raspberry Pi change to the director where you placed the binary.
+1. On the Raspberry Pi change to the directory where you placed the binary.
 1. ```shell
     sudo ./TemperatureSensor
     ```
