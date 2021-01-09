@@ -10,8 +10,6 @@ import (
 //action is a type define for a function. Used in messaging.
 type action func()
 
-
-
 // TemperatureSensor represents a temperature sensor actor
 type TemperatureSensor struct{
 	// actionChan is the channel messages are sent to the actor loop on.
