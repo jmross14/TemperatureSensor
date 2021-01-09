@@ -1,6 +1,6 @@
 package main
 
-import "github.com/jmross14/TemperatureSensor/server"
+import "github.com/jmross14/go-smarthome-temperaturesensor/server"
 
 func main() {	
 	app := server.App{}

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"encoding/json"
 	"github.com/gorilla/mux"
-	"github.com/jmross14/TemperatureSensor/temperaturesensor"
+	"github.com/jmross14/go-smarthome-temperaturesensor/temperaturesensor"
 )
 
 // App contains an http server for a temperature sensor.
@@ -26,6 +26,7 @@ func (app *App) Initialize(){
 
 // Run starts the http server.
 func (app *App) Run(addr string) {
+	log.Println("Starting Server on port: " + addr)
 	log.Fatal(http.ListenAndServe(addr, app.router))
 }
 
